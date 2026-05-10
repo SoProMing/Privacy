@@ -1,0 +1,14 @@
+title: Flatbrainer Public Documents
+description: Public app documents, privacy policies, support pages, and app information.
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+show_downloads: false
