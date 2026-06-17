@@ -17,6 +17,9 @@ It is intended for stable URLs that can be used in app stores, support channels,
 - [7ime7racker](apps/7ime7racker/index.md)
   - [Privacy Policy](apps/7ime7racker/privacy.md)
   - [Support](apps/7ime7racker/support.md)
+- [Pimp My Bike](apps/pimp-my-bike/index.md)
+  - [Privacy Policy](apps/pimp-my-bike/privacy.md)
+  - [Support](apps/pimp-my-bike/support.md)
 
 ## General Documents
 
@@ -37,5 +40,8 @@ Stable public URLs should use the page permalinks, for example:
 - `/apps/7ime7racker/`
 - `/apps/7ime7racker/privacy/`
 - `/apps/7ime7racker/support/`
+- `/apps/pimp-my-bike/`
+- `/apps/pimp-my-bike/privacy/`
+- `/apps/pimp-my-bike/support/`
 - `/apps/`
 - `/documents/`

@@ -20,6 +20,14 @@ Public documents, support information, and app pages from Flatbrainer.
 - [Privacy policy]({{ "/apps/7ime7racker/privacy/" | relative_url }})
 - [Support]({{ "/apps/7ime7racker/support/" | relative_url }})
 
+### Pimp My Bike
+
+Pimp My Bike is a local-first bike dashboard, rear-view mirror, ride safety, and dashcam app for iPhone.
+
+- [App page]({{ "/apps/pimp-my-bike/" | relative_url }})
+- [Privacy policy]({{ "/apps/pimp-my-bike/privacy/" | relative_url }})
+- [Support]({{ "/apps/pimp-my-bike/support/" | relative_url }})
+
 ## Repository
 
 This repository is used to publish stable public documents for apps and related online topics.
