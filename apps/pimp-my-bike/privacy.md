@@ -6,9 +6,9 @@ permalink: /apps/pimp-my-bike/privacy/
 
 # Privacy Policy for Pimp My Bike
 
-Effective date: June 17, 2026
+Effective date: August 13, 2026
 
-This privacy policy explains how Pimp My Bike handles data in the iPhone app. It is written both for App Store review and for people who find the source code or project files in a public GitHub repository.
+This privacy policy explains how Pimp My Bike handles data in the iPhone and iPad app. It is written both for App Store review and for people who find the source code or project files in a public GitHub repository.
 
 ## Short Version
 
@@ -20,7 +20,7 @@ Pimp My Bike is designed as a local-first bike dashboard, rear-view mirror, ride
 - The app does not use third-party analytics or third-party crash reporting SDKs.
 - Your bike profiles, ride events, settings, road-quality reports, and saved clips are stored on your device unless you choose to export, share, save to Photos, or use Apple/system services.
 - Camera frames used for the mirror, dashcam, and vehicle/proximity detection are processed on device.
-- Some optional features use Apple system services or external services, such as Location Services, Camera, Microphone, Motion, Speech Recognition, Apple Music, StoreKit/App Store purchases, Photos, Maps, weather data, and point-of-interest lookup.
+- Some optional features use Apple system services or external services, such as Location Services, Camera, Microphone, Motion, Speech Recognition, Apple Music, StoreKit/App Store purchases, Photos, Maps, BRouter route planning, weather data, and point-of-interest lookup.
 
 ## Data You May Store in the App
 
@@ -59,17 +59,17 @@ If you share a clip, export an incident package, use file sharing, or save a cli
 
 ## Microphone and Speech Recognition
 
-Microphone permission may be used for dashcam audio and for in-app voice commands.
+Microphone and Speech Recognition access are optional. The app requests microphone access when you start hands-free voice control, or when you start or save a clip while **Record audio in saved clips** is enabled. Clip audio is enabled by default and can be changed under Settings > Recording. Speech Recognition access is requested when you start voice control.
 
-If audio recording for saved clips is enabled, microphone audio may be included in saved dashcam clips. If you share or export those clips, the audio is included in what you share.
+If audio recording for saved clips is enabled and microphone access is available, microphone audio may be included in saved dashcam clips. If you share or export those clips, the audio is included in what you share. Denying microphone access does not prevent use of the mirror, maps, or recordings without audio.
 
-Speech Recognition may be used for hands-free app controls. Speech recognition is provided through Apple's system speech recognition services and is governed by Apple's privacy policies and device settings. The app is not designed to send voice command audio or transcripts to a Flatbrainer server.
+Speech Recognition may be used after you start hands-free app controls. Speech recognition is provided through Apple's system speech recognition services and is governed by Apple's privacy policies and device settings. The app is not designed to send voice-command audio or transcripts to a Flatbrainer server.
 
-You can control microphone and speech recognition permissions in iOS Settings.
+You can control microphone and speech recognition permissions in device Settings.
 
 ## Location, Maps, Weather, and POI Data
 
-Location permission is used for speed, distance tracking, heading, ride context, nearby points of interest, parked-bike location, route aids, weather lookup, and optional location-tagged incident or road-quality events. The app may request background location so speed and distance can stay updated while riding.
+Location permission is used for speed, distance tracking, heading, ride context, nearby points of interest, parked-bike location, route aids, weather lookup, and optional location-tagged incident or road-quality events. The app requests When In Use authorization; location can continue updating in the background only while a ride started in the foreground remains active.
 
 When location features are enabled, the app may process or store:
 
@@ -79,15 +79,21 @@ When location features are enabled, the app may process or store:
 - Coordinates attached to road-quality reports or incident events, if those features are enabled.
 - Map destinations, route context, and nearby point-of-interest results.
 
-The app may use Apple services such as Location Services, MapKit, Maps search, routes, and opening destinations in Apple Maps. Those Apple services are governed by Apple's privacy policies and your Apple ID/device settings.
+The app requests **When In Use** location authorization, not **Always** authorization. While a ride that you started in the foreground remains active, location updates may continue in the background and iOS or iPadOS displays its location indicator.
 
-The app may send coordinates to weather or point-of-interest services so those services can return local ride weather or nearby amenities. In the current app implementation, weather lookups use Open-Meteo and drinking-water point-of-interest lookup may use the Overpass API. Those services process requests under their own policies.
+The app may use Apple services such as Location Services, MapKit, Maps search, reverse geocoding, and opening destinations in Apple Maps. Those Apple services are governed by Apple's privacy policies and your Apple ID/device settings.
 
-You can disable location access at any time in iOS Settings. If you disable location access, speed, distance, maps, weather-by-location, parked-bike location, and location-tagged safety features may not work.
+When you request a bicycle route, the app sends the exact route start coordinate, which is normally your current position, and the selected destination coordinate to the public BRouter service at `brouter.de`. The coordinates are included in an HTTPS request so BRouter can calculate and return the requested route. The BRouter service operator may process those coordinates and ordinary network request information, such as an IP address, under its own policies. Pimp My Bike does not send camera frames, microphone audio, bike records, or saved clips to BRouter.
+
+The app may also send coordinates to other services only when needed to answer a related request. Weather lookups use Open-Meteo, and drinking-water point-of-interest lookups may use the OpenStreetMap Overpass API. Those service operators process the request information under their own policies. Flatbrainer does not operate BRouter, Open-Meteo, or the Overpass API and does not receive the route, weather, or point-of-interest requests sent to them.
+
+You can disable location access at any time in device Settings. If you disable location access, speed, distance, maps, weather-by-location, parked-bike location, and location-tagged safety features may not work.
 
 ## Motion and Road-Quality Data
 
-Motion permission may be used to detect forceful vibration, damaged roads, bad surfaces, and possible crashes while riding.
+When road-quality detection is enabled, Pimp My Bike uses device-motion and acceleration samples on the device to detect forceful vibration, bumps, damaged roads, and bad surfaces while riding. The app does not use stored Motion & Fitness activity history to classify whether you are walking, running, cycling, or driving.
+
+Motion access is used only for the related on-device monitoring. If motion access is unavailable or disabled, other app features remain available, but automatic bump and road-quality detection may not work.
 
 Road-quality reports are stored locally unless you choose to export or share them. Exported reports may include classification, severity, timestamp, acceleration value, speed, bike identifier, and coordinates if location was available for the report.
 
