@@ -20,6 +20,14 @@ Public documents, support information, and app pages from Flatbrainer.
 - [Privacy policy]({{ "/apps/7ime7racker/privacy/" | relative_url }})
 - [Support]({{ "/apps/7ime7racker/support/" | relative_url }})
 
+### KVMHub
+
+KVMHub shares one keyboard and pointer with nearby computers over the local network.
+
+- [App page]({{ "/apps/kvmhub/" | relative_url }})
+- [Privacy policy]({{ "/apps/kvmhub/privacy/" | relative_url }})
+- [Support]({{ "/apps/kvmhub/support/" | relative_url }})
+
 ### Pimp My Bike
 
 Pimp My Bike is a local-first bike dashboard, rear-view mirror, ride safety, and dashcam app for iPhone.
