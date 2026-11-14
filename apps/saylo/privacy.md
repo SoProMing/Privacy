@@ -3,6 +3,8 @@ layout: default
 title: Saylo Privacy Policy
 permalink: /apps/saylo/privacy/
 ---
+Saylo is now called **Di41og**. See the [current Di41og privacy policy](../di41og/privacy.md). This page remains available for earlier development versions.
+
 
 # Privacy Policy for Saylo
 

@@ -3,6 +3,8 @@ layout: default
 title: Saylo
 permalink: /apps/saylo/
 ---
+Saylo is now called **Di41og**. See the [current Di41og app page](../di41og/index.md). This page remains available for earlier development versions.
+
 
 # Saylo
 

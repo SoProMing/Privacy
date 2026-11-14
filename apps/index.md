@@ -29,3 +29,11 @@ Pimp My Bike is a local-first bike dashboard, rear-view mirror, ride safety, and
 - [App page]({{ "/apps/pimp-my-bike/" | relative_url }})
 - [Privacy policy]({{ "/apps/pimp-my-bike/privacy/" | relative_url }})
 - [Support]({{ "/apps/pimp-my-bike/support/" | relative_url }})
+
+## Di41og
+
+Di41og is a local-first conversation copilot for Apple platforms, previously called Saylo.
+
+- [App page]({{ "/apps/di41og/" | relative_url }})
+- [Privacy policy]({{ "/apps/di41og/privacy/" | relative_url }})
+- [Support]({{ "/apps/di41og/support/" | relative_url }})

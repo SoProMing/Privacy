@@ -3,6 +3,8 @@ layout: default
 title: Saylo Support
 permalink: /apps/saylo/support/
 ---
+Saylo is now called **Di41og**. See the [current Di41og support page](../di41og/support.md). This page remains available for earlier development versions.
+
 
 # Saylo Support
 
