@@ -6,7 +6,7 @@ permalink: /apps/di41og/privacy/
 
 # Privacy Policy for Di41og
 
-Effective date: November 14, 2026
+Effective date: November 18, 2026
 
 This policy explains how Di41og handles data in its iPhone and iPad app, including when the iPad app runs on an Apple silicon Mac.
 
@@ -32,6 +32,7 @@ Depending on how you use Di41og, its local records may include:
 - Estimated speaker activity, speaking times, voice labels, and names you assign to speakers.
 - Meeting templates, your chosen role, participant counts, and company, product, team, audience, or other background you supply.
 - Reusable product and team profiles and your app preferences.
+- Your edits, confirmations, dismissals and merges of extracted outcomes, alongside their original source evidence, and source-review coverage receipts.
 
 This information supports the app's preparation, transcription, guidance, reflection, and export features. Generated interpretations and speaker labels can be wrong; review them before using or sharing them.
 
@@ -47,7 +48,7 @@ Apple's services, asset downloads, device diagnostics, and permission controls o
 
 ## Speaker Labels and Model Downloads
 
-**Distinguish speakers** is on by default for new preferences. You can turn it off in Settings before starting a conversation. When you start listening with the feature enabled, first use may download the speaker model from Hugging Face and its file-delivery services. Later sessions can use the cached model.
+**Distinguish speakers** is on by default for new preferences. You can turn it off in Settings or on the readiness screen before starting a conversation. Choosing **Prepare models before listening**, or starting listening with the feature enabled, may download the speaker model from Hugging Face and its file-delivery services on first use. Preparation leaves the microphone off. Later sessions can use the cached model.
 
 The download request identifies the model files and can expose ordinary network information, such as an IP address and request details, to those services. It does not include your microphone audio, transcript, or meeting background. See [Hugging Face's Privacy Policy](https://huggingface.co/privacy).
 
@@ -80,6 +81,8 @@ Before uninstalling, you can use the app's deletion controls to remove conversat
 ## Copying, Exporting, and Sharing
 
 When you copy original transcript wording, share notes, or export a PDF, you choose the content and destination. Exports and copied text can contain personal or confidential conversation information. Di41og may create a protected temporary PDF copy to support sharing.
+
+Ordinary shared notes exclude private live guidance. The separate **Private analysis export** requires an explicit choice to include the transcript and private guidance. It saves a JSON file containing that conversation's original transcript, recommendations, preparation, source evidence, human review entries and analysis coverage. It contains no raw audio and is not sent automatically to the developer or another service. The destination you choose may sync files under its own settings. Share this separate export only when you intend to disclose those private details.
 
 The receiving app, clipboard, file location, or service handles the copy under its own policies and settings. Deleting a conversation in Di41og does not recall a copy you already shared or remove files outside Di41og's managed storage.
 
