@@ -6,6 +6,10 @@ permalink: /apps/di41og/support/
 
 # Di41og Support
 
+[English](#english) · [Deutsch](#deutsch)
+
+## English
+
 For help or feedback, email [starktdh@arcor.de](mailto:starktdh@arcor.de).
 
 Read the [Di41og Privacy Policy](privacy.md) for local storage and the separate choices for summary processing, encrypted sync, calendar saving, computer audio and sharing.
@@ -26,13 +30,13 @@ An AI notice is separate from microphone status. A declined analysis does not by
 
 ## Languages and Speaker Labels
 
+The interface is available in English and German and follows your system or per-app language preference. Conversation speech is independent of the interface language.
+
 Automatic language selection follows English and German. Short phrases, background noise, and overlapping speech can be ambiguous. Pause a live session to choose a fixed language there, or change the default language in Settings after ending the session.
 
 **Distinguish speakers** estimates up to four voices and is enabled by default for new settings. First use may download a model; later sessions can use its cached copy. If labels are unavailable, check the speaker status and network connection for an initial download. The labels are estimates, and you assign any names yourself.
 
 For an incorrectly attributed passage, select the relevant word range and correct its voice label. This preserves the source words and timing; it does not identify the speaker or teach the app a cross-conversation voice identity. Review overlapping speech manually.
-
-The interface is currently English. English and German speech support and German store text do not imply a German interface.
 
 ## Summary Processing and Coverage
 
@@ -95,3 +99,97 @@ Please include:
 You do not need to send an entire transcript or recording to report a problem. Remove personal names, confidential meeting content, company details, and other private information from screenshots or examples. Do not post that material in public GitHub issues or comments.
 
 [Back to Di41og](index.md)
+
+## Deutsch
+
+**Di41og-Support**
+
+Bei Fragen oder Feedback schreibe an [starktdh@arcor.de](mailto:starktdh@arcor.de).
+
+Lies die [Di41og-Datenschutzerklärung](privacy.md#deutsch), um dich über lokale Speicherung und die separaten Wahlmöglichkeiten für Zusammenfassungsverarbeitung, verschlüsselte Synchronisierung, Kalenderspeicherung, Computeraudio und Teilen zu informieren.
+
+### Erste Schritte
+
+Erstelle ein Gespräch oder wähle **Spontanes Gespräch starten**. Vorbereitung, Vorlagen, Anzahl der Teilnehmenden und ein Zeitlimit sind optional. Bestätige vor dem Beginn die Zustimmung der Teilnehmenden und erlaube den Mikrofonzugriff, wenn du dazu aufgefordert wirst.
+
+Lass Di41og beim Zuhören im Vordergrund. Du kannst eine Sitzung pausieren oder beenden; beim Wechsel in den Hintergrund pausiert die Erfassung. Audio von Telefongesprächen auf demselben iPhone wird nicht unterstützt.
+
+### Verfügbarkeit der KI auf dem Gerät
+
+Di41og erfordert iOS oder iPadOS 26 oder neuer. Live-KI-Funktionen benötigen zusätzlich Hardware mit Apple Intelligence-Unterstützung, unterstützte Systemeinstellungen und ein aktiviertes, einsatzbereites Modell. Mit **Verfügbarkeit prüfen** in den Di41og-Einstellungen siehst du den aktuellen Status.
+
+Für die Spracherkennung gelten eigene Anforderungen an das Gerät und die installierten Sprachressourcen. Zum Laden fehlender Apple-Sprach- oder KI-Ressourcen kann eine Netzwerkverbindung erforderlich sein. Die App wechselt nicht automatisch zu einem Cloud-Anbieter. Unterstützte Transkription, manuelle Vorbereitung, lokale Dokumentensuche, Zeitmesser und transkriptbasierte Notizen lassen sich auch ohne KI auf dem Gerät weiter nutzen.
+
+Ein KI-Hinweis ist vom Mikrofonstatus getrennt. Eine abgelehnte Analyse bedeutet für sich genommen nicht, dass das Zuhören gestoppt wurde. Prüfe die Live-Zuhöranzeige; wenn die Erfassung pausiert ist, lies die Begründung und wähle **Fortsetzen**, wenn du bereit bist.
+
+### Sprachen und Sprecherzuordnung
+
+Die Oberfläche ist auf Deutsch und Englisch verfügbar und folgt deiner bevorzugten System- oder App-Sprache. Die Gesprächssprache ist von der Sprache der Oberfläche unabhängig.
+
+Die automatische Sprachauswahl berücksichtigt Englisch und Deutsch. Kurze Äußerungen, Hintergrundgeräusche und überlappende Sprache können mehrdeutig sein. Pausiere eine laufende Sitzung, um dort eine feste Sprache auszuwählen, oder ändere nach dem Beenden der Sitzung die Standardsprache in den Einstellungen.
+
+**Stimmen unterscheiden** schätzt bis zu vier Stimmen und ist bei neuen Einstellungen standardmäßig aktiviert. Bei der ersten Nutzung kann ein Modell geladen werden; spätere Sitzungen können die zwischengespeicherte Kopie verwenden. Wenn keine Zuordnungen verfügbar sind, prüfe den Sprecherstatus und die Netzwerkverbindung für einen ersten Download. Die Zuordnungen sind Schätzungen; etwaige Namen vergibst du selbst.
+
+Wenn eine Passage falsch zugeordnet wurde, wähle den betreffenden Wortbereich und korrigiere die Stimmenzuordnung. Dabei bleiben Quellenwortlaut und Zeitangaben erhalten. Dadurch wird die sprechende Person nicht identifiziert; die App lernt auch keine über Gespräche hinweg wiederverwendbare Stimmenidentität. Prüfe überlappende Sprache manuell.
+
+### Verarbeitung von Zusammenfassungen und Prüfungsumfang
+
+Abschließende Zusammenfassungen nutzen standardmäßig Apples Modell auf dem Gerät. Prüfe Darstellungen einzelner Arbeitsstränge und ihre Originalzitate; Hinweise auf einen unvollständigen Prüfungsumfang bedeuten, dass im Entwurf Abschnitte oder Zusammenhänge fehlen können. Eine Quellenangabe schafft Nachvollziehbarkeit und belegt weder eine Einigung noch ein vollständiges Protokoll. Bearbeite die Notizen und prüfe den ursprünglichen Gesprächswortlaut, bevor du dich darauf verlässt.
+
+In den Einstellungen kannst du ausdrücklich einen Ollama-Server und ein Modell für abschließende Zusammenfassungen wählen und freigeben. Diese Auswahl sendet begrenzten Transkript- und Ausgangstext, den Gesprächstitel, Kapitelmetadaten und mit Belegen verknüpfte Zielanker an diesen Prozessor, wenn du später ein Gespräch beendest oder eine neue Zusammenfassung anforderst. Spracherkennung auf dem Gerät, Live-Hinweise und lokale Wissensantworten ändern sich dadurch nicht. Kehre zur Option auf dem Gerät zurück oder deaktiviere die Erlaubnis, um spätere Anfragen an alternative Zusammenfassungsprozessoren zu stoppen.
+
+Prüfe bei Ollama die genaue Serveradresse, das installierte Modell und die Regeln für Verarbeitung und Aufbewahrung. Die Modellprüfung kontaktiert diesen Server, ohne Gesprächstext zu senden. Die Integration von Private Cloud Compute ist vorbereitet, aber im aktuellen Build deaktiviert; ihre Freigabe ist gesperrt. Sie erfordert Apples verwaltete Entwicklerberechtigung, einen konfigurierten neuen Build und iOS/macOS 27 oder neuer. Eine in den Einstellungen angezeigte Option ist weder ein nutzbarer Dienst noch ein Nachweis für eine genehmigte Berechtigung. Es gibt keinen automatischen erneuten Versuch über einen anderen Anbieter.
+
+Bewertungen von Hinweisen als „Hilfreich“ oder „Nicht hilfreich“ bleiben lokal beim jeweiligen Gespräch. Optionales Lernen verändert die Einstellungen für Hinweise; beim Ausschalten bleibt der Verlauf erhalten. Bewertungen und private Hinweise sind enthalten, wenn du später vollständige Gespräche synchronisierst.
+
+### Wissensbibliothek und Unterstützung mit Lebenslaufmaterial
+
+Importiere ein PDF mit auswählbarem Text oder eine Text- oder Markdown-Datei. Suche und Antworten mit Quellenangaben verwenden lokal extrahierten Text. Ein gescanntes PDF ohne extrahierbaren Text benötigt zuerst eine Texterkennung an anderer Stelle. Verschlüsselte, passwortgeschützte oder zu große Dokumente können abgelehnt werden. Der Import unterstützt je Dokument bis zu 10 MB, 300 PDF-Seiten und 500.000 extrahierte Zeichen.
+
+Wähle aus, welche Dokumente verwendet werden, und aktiviere **Andere gespeicherte Gespräche einbeziehen** nur, wenn du dies möchtest. Die Antwortunterstützung für Lebenslauf- und Projektmaterial liefert Quellenzitate statt erfundener Erfahrungen. Wenn Apple Intelligence nicht verfügbar ist oder die Anfrage ablehnt, kannst du weiterhin lokale Suchtreffer lesen. Das Entfernen eines importierten Eintrags löscht seinen extrahierten Bibliothekstext, nicht die ursprüngliche Datei. Wissensdokumente sind von der Gesprächssynchronisierung getrennt.
+
+### Kalender, Erinnerungen und Sperrbildschirm
+
+Verbinde Kalender nur bei Bedarf, wähle die einzubeziehenden Kalender aus und schließe einzelne Termine aus. Um eine Vorbereitung als Termin anzulegen, öffne ihren System-Terminentwurf, prüfe Titel, Uhrzeit, Zweck und Agenda und wähle anschließend „Speichern“. Es wird keine Einladung automatisch versendet. Dein Kalenderdienst kann gespeicherte Ereignisse synchronisieren.
+
+Vorbereitungserinnerungen erfordern deine ausdrückliche Mitteilungsberechtigung und verwenden allgemeinen Text. Kurzbefehle und App Intents können eine bearbeitbare Vorbereitung erstellen oder öffnen; sie starten kein Zuhören. Optionale Live-Aktivitäten zeigen Aufnahmestatus, Zeitmesser und Agendaposition ohne Titel, Transkript, Aufgaben oder Hinweise. Sie halten keine Aufnahme aufrecht, während Di41og im Hintergrund ist.
+
+### Vorbereitungswidget für den Home-Bildschirm
+
+Das optionale Widget bietet statische Links für eine neue Vorbereitung oder den bevorstehenden Entwurf. Es öffnet Di41og, ohne eine Erfassung zu starten, und zeigt keine privaten Gesprächs- oder Kalenderinhalte an. Es hält keine privaten Daten in einem gemeinsamen Widget-Container vor.
+
+### Verschlüsselte Gesprächssynchronisierung
+
+Wähle in den Synchronisierungseinstellungen einen Ordner in „Dateien“, sichere seinen Wiederherstellungsschlüssel und verbinde das andere Gerät mit demselben Ordner und Schlüssel. Synchronisiere manuell, nachdem du das aktive Gespräch beendet hast. Die Ordnersynchronisierung enthält vollständige Gesprächsdatensätze, einschließlich privater Hinweise und Bewertungen; importierte Wissensdokumente und wiederverwendbare Profile bleiben getrennt.
+
+Wenn der Ordner bereits verschlüsselte Datensätze enthält, verwende seinen bestehenden Wiederherstellungsschlüssel. Der Entwickler kann einen verlorenen Schlüssel nicht wiederherstellen. Konflikte des Dateianbieters oder gleichzeitige Änderungen müssen geprüft werden; verwirf die Kopie eines anderen Geräts nicht nur, um eine Fehlermeldung zu beseitigen. Das Deaktivieren der Synchronisierung lässt die verschlüsselten Sicherungen im gewählten Ordner bestehen. Entferne Anbieterdateien, Kopien auf anderen Geräten und Sicherungen bei Bedarf separat.
+
+### Computeraudio auf einem Mac
+
+Die iPad-App auf einem kompatiblen Mac mit Apple Chip kann sich mit der separat installierten Di41og-Mac-Audiobegleitapp unter macOS 26 oder neuer koppeln. Wähle in der Systemauswahl der Begleitapp einen Bildschirm oder eine App, erstelle eine Kopplung und wähle **Di41og zum Koppeln öffnen**. Bestätige in Di41og die Zustimmung der Teilnehmenden und starte das Gespräch ausdrücklich. Die Begleitapp verwendet ausgewähltes Systemaudio statt des Mikrofons und erstellt keine Audiodatei.
+
+Bei Pause, Trennung, Quellenwechsel, Entkopplung oder Beenden stoppt die Erfassung. Dieselbe vorbereitete Kopplung unterstützt ein ausdrückliches Fortsetzen; das bloße Wiederverbinden startet kein Audio. **Stoppen und entkoppeln** macht die Kopplung ungültig. Wenn die Quelle ausfällt, prüfe die macOS-Berechtigung für Bildschirm- und Systemaudioaufnahme und erstelle bei Bedarf eine neue Kopplung. Die Begleitapp umgeht keine geschützten Quellen und zeichnet kein Audio von Telefongesprächen auf dem iPhone auf.
+
+### Themen, Vorlagen und Online-Begriffe
+
+KI-Themen und Vorlagenvorschläge sind Interpretationen. Öffne ihre belegenden Transkriptzitate und entscheide, ob der Vorschlag hilfreich ist. Das Annehmen einer Live-Vorlage erhält deine vorhandenen Ziele, die Agenda und den aktuellen Zeitmesser. Empfehlungen zur Dauer verwenden die optionale Anzahl der Teilnehmenden, die du angibst.
+
+Die Begriffserkennung läuft lokal. Eine Online-Suche bei Wikipedia beginnt erst, wenn du einen Begriff antippst. Offline kann das Nachschlagen nicht verfügbar sein, während andere Funktionen auf dem Gerät mit installierten Ressourcen weiterarbeiten.
+
+### Deine Daten verwalten
+
+Prüfe die Aufbewahrungseinstellung unter **Deine Daten, deine Kontrolle**. Du kannst Gespräche einzeln löschen oder die aktive Sitzung beenden und **Alle Gespräche löschen** wählen. Für gespeicherte Produkt- und Teamprofile sowie importierte Wissensdokumente gibt es separate Funktionen. Eine lokale Löschung ruft keine Exporte zurück und entfernt nicht sofort jede synchronisierte Kopie bei einem Anbieter oder auf einem Gerät. Deaktiviere die Synchronisierung vor der Deinstallation, wenn du ihren Geräteschlüssel und ihre Konfiguration entfernen möchtest; entferne geteilte Dateien und externe Kopien an ihren jeweiligen Speicherorten.
+
+### Bevor du den Support kontaktierst
+
+Bitte gib Folgendes an:
+
+- Die Di41og-Version und den Build, falls verfügbar.
+- Dein Gerätemodell und die Betriebssystemversion.
+- Eine kurze Beschreibung des Problems und die Schritte, mit denen es sich reproduzieren lässt.
+- Ob das Problem Erfassung, Transkription, Stimmenkorrekturen, KI auf dem Gerät, einen ausdrücklich aktivierten Zusammenfassungsprozessor, Wissen, Synchronisierung, Kalender oder Teilen betrifft. Lass bei Synchronisierungs- oder Modellproblemen Wiederherstellungsschlüssel, Kopplungsschlüssel, Zugangsdaten und private Serverangaben weg.
+- Den betreffenden Status- oder Fehlerwortlaut, nachdem private Angaben entfernt wurden.
+
+Du musst kein vollständiges Transkript und keine Aufnahme senden, um ein Problem zu melden. Entferne persönliche Namen, vertrauliche Gesprächsinhalte, Unternehmensangaben und andere private Informationen aus Bildschirmfotos oder Beispielen. Veröffentliche dieses Material nicht in öffentlichen GitHub-Issues oder Kommentaren.
+
+[Zurück zu Di41og](index.md#deutsch)
